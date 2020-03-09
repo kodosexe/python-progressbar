@@ -690,7 +690,7 @@ class SimpleProgress(FormatWidgetMixin, WidgetBase):
 class Bar(AutoWidthWidgetBase):
     '''A progress bar which stretches to fill the line.'''
 
-    def __init__(self, marker='#', left='|', right='|', fill=' ',
+    def __init__(self, marker='█', left='|', right='|', fill=' ',
                  fill_left=True, marker_wrap=None, **kwargs):
         '''Creates a customizable progress bar.
 
